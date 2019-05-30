@@ -1,7 +1,7 @@
 pipeline:
   build:
     image: quay.io/ukhomeofficedigital/drone-docker
-    repo: quay.io/aliyanaziz/cicdworkshop
+    repo: quay.io/andygdacc/cicdworkshop_ajg
     secrets: [ docker_username, docker_password ]
     registry: quay.io
     tags:
