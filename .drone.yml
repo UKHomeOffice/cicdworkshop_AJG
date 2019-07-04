@@ -26,7 +26,7 @@ pipeline:
     secrets:
       - kube_token_acp_notprod
     environment:
-      - IMAGE_URL=quay.io/aliyanaziz/cicdworkshop:v0.6
+      - IMAGE_URL=quay.io/ukhomeofficedigital/dacc_cicd_ajg:latest
     commands:
       - apk update
       - apk add curl
